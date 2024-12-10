@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crado Hoodie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html" class="logo">Crado</a>
+        <div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Crado Full Zip Hoodie</h1>
+    <div class="product-detail">
+        <img src="cradohoodie.jpg" alt="Crado Full Zip Hoodie" class="product-image">
+        <div class="product-info">
+            <p>Price: €100</p>
+            <form action="cart.html" method="get">
+                <label for="size">Choose a size:</label>
+                <select id="size" name="size" required>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                    <option value="xl">Extra Large</option>
+                </select>
+                <button type="submit" class="add-to-cart">Add to Cart</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
